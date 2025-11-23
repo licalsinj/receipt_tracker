@@ -1,0 +1,19 @@
+[project]
+name = "poetry-tkinter"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "licalsinj",email = "licalsinj@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "customtkinter (>=5.2.2,<6.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "poetry_tkinter", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
