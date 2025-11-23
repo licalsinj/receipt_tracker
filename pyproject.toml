@@ -6,7 +6,7 @@ authors = [
     {name = "licalsinj",email = "licalsinj@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.14"
 dependencies = [
     "customtkinter (>=5.2.2,<6.0.0)"
 ]
